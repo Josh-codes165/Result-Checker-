@@ -263,6 +263,38 @@ button:hover {
     border: none;
     border-radius: 10px;
   }
+  input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 250px;
+  background-color: #5404ee;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+input:hover {
+  transform: translateY(-3px);
+  transition: all 0.5s ease;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #5404ee;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  transition: all 0.5s ease;
+}
 }
 @media (max-width: 402px) {
   .container {
@@ -304,4 +336,72 @@ button:hover {
     border: none;
     border-radius: 10px;
   }
+  input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 200px;
+  background-color: #5404ee;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+input:hover {
+  transform: translateY(-3px);
+  transition: all 0.5s ease;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #5404ee;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  transition: all 0.5s ease;
+}
+}
+
+@media(max-width: 415px){
+  input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 200px;
+  background-color: #5404ee;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+input:hover {
+  transform: translateY(-3px);
+  transition: all 0.5s ease;
+}
+
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #5404ee;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  transition: all 0.5s ease;
+}
 }
