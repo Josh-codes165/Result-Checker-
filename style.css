@@ -102,6 +102,7 @@ button:hover {
   margin-top: 50px;
   font-size: 24px;
   color: white;
+  text-align: left;
 }
 @media (max-width: 782px) {
   .form {
