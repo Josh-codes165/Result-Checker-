@@ -375,6 +375,12 @@ button:hover {
   transform: translateY(-3px);
   transition: all 0.5s ease;
 }
+#result {
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+}
 }
 
 @media(max-width: 415px){
@@ -410,5 +416,11 @@ button {
 button:hover {
   transform: translateY(-3px);
   transition: all 0.5s ease;
+}
+#result {
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+  text-align: left;
 }
 }
